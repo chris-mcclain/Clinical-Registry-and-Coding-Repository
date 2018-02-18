@@ -1,9 +1,6 @@
 ﻿<%--
-Form: Default
-Class: CPDM Capstone
 Author: Chris McClain
 Abstract: Home page for the Cancer Registry - allows the user to search for a patient in the Cancer Registry
-Date: July 15, 2017
 --%>
 
 <%@ Page Title="Cancer Registry Search" Language="C#" MasterPageFile="~/MasterPages/Frontend.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="Cancer_Registry_Default" %>
