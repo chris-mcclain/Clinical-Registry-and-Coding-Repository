@@ -1,9 +1,6 @@
 ﻿<%--
-Form: GlobalDays
-Class: CPDM Capstone
 Author: Chris McClain
 Abstract: Displays the number of global days associated with specified procedures
-Date: July 15, 2017
 --%>
 
 <%@ Page Title="Global Days" Language="C#" MasterPageFile="~/MasterPages/Frontend.master" AutoEventWireup="true" CodeFile="GlobalDays.aspx.cs" Inherits="GlobalDays" %>
