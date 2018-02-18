@@ -1,9 +1,6 @@
 ﻿<%--
-Form: PatientSearchPerProcedure
-Class: CPDM Capstone
 Author: Chris McClain
 Abstract: Displays the names, dates of birth, and Tiger Numbers of all patients who have had the specified procedure
-Date: July 15, 2017
 --%>
 
 <%@ Page Title="Patient Search Per Procedure" Language="C#" MasterPageFile="~/MasterPages/Frontend.master" AutoEventWireup="true" CodeFile="PatientSearchPerProcedure.aspx.cs" Inherits="PatientSearchPerProcedure" %>
