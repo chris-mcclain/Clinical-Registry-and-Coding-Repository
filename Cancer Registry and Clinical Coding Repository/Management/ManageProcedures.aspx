@@ -1,9 +1,6 @@
 ﻿<%--
-Form: ManageProcedures
-Class: CPDM Capstone
 Author: Chris McClain
 Abstract: Allows management to add to, edit, and delete from the TProcedures table
-Date: July 15, 2017
 --%>
 
 <%@ Page Title="Manage Procedures" Language="C#" MasterPageFile="~/MasterPages/Management.master" AutoEventWireup="true" CodeFile="ManageProcedures.aspx.cs" Inherits="Management_ManageProcedures" %>
