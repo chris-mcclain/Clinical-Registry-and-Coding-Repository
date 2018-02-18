@@ -1,9 +1,7 @@
 ﻿/*
-  Class: CPDM Capstone
   Author: Chris McClain
   Abstract: Displays the Cancer Registry patients with matching
             first name, last name, and date of birth.
-  Date: July 25, 2017
 */
 using System;
 using System.Collections.Generic;
@@ -21,11 +19,6 @@ using System.Configuration;
 */
 public partial class Management_SearchRegistry : System.Web.UI.Page
 {
-    protected void Page_Load(object sender, EventArgs e)
-    {
-        
-    }
-
     /*
      Name: bntSearch_Click
      Abstract: Display the Cancer Registry patients with matching first name, last name, and date of birth.
