@@ -1,9 +1,6 @@
 ﻿<%--
-Form: Default
-Class: CPDM Capstone
 Author: Chris McClain
 Abstract: Log-in Page for Cancer Registry and Clinical Coding Repository
-Date: July 15, 2017
 --%>
 
 <%@ Page Title="Home" Language="C#" MasterPageFile="~/MasterPages/Frontend.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
