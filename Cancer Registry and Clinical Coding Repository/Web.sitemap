@@ -1,11 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
 <!--
-File: Web.sitemap
-Class: CPDM Capstone
 Author: Chris McClain
 Abstract: Sitemap for the Clinical Coding and Clinical Coding Repository Site
-Date: July 15, 2017
 -->
 
 <siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
