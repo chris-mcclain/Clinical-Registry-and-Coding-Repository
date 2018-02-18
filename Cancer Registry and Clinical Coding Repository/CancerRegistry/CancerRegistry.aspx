@@ -1,10 +1,7 @@
 ﻿<%--
-Form: CancerRegistry
-Class: CPDM Capstone
 Author: Chris McClain
 Abstract: Displays information about diagnoses, lab tests, imaging, treatments, medications, and procedures for each
           patient with a chart in the Cancer Registry
-Date: July 15, 2017
 --%>
 
 <%@ Page Title="Cancer Registry" Language="C#" MasterPageFile="~/MasterPages/Frontend.master" AutoEventWireup="true" CodeFile="CancerRegistry.aspx.cs" Inherits="CancerRegistry_CancerRegistry" %>
