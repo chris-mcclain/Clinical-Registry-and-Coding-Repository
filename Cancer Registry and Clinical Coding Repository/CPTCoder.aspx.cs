@@ -1,8 +1,6 @@
 ﻿/*
-  Class: CPDM Capstone
   Author: Chris McClain
   Abstract: Displays CPT codes for selected imaging and procedures.
-  Date: July 25, 2017
 */
 using System;
 using System.Collections.Generic;
@@ -20,11 +18,6 @@ using System.Configuration;
 */
 public partial class CPTCoder : System.Web.UI.Page
 {
-    protected void Page_Load(object sender, EventArgs e)
-    {
-        
-    }
-
     /*
      Name: ddlImaging_SelectedIndexChanged
      Abstract: Displays the CPT Code for the chosen imaging.
