@@ -1,9 +1,7 @@
 ﻿/*
-  Class: CPDM Capstone
   Author: Chris McClain
   Abstract: Allows management to add, edit and delete
             lab tests in the Cancer Registry.
-  Date: July 25, 2017
 */
 using System;
 using System.Collections.Generic;
