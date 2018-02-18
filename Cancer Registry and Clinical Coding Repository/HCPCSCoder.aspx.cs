@@ -1,8 +1,6 @@
 ﻿/*
-  Class: CPDM Capstone
   Author: Chris McClain
   Abstract: Displays the HCPCS code associated with a chosen supply or medication.
-  Date: July 25, 2017
 */
 using System;
 using System.Collections.Generic;
@@ -20,11 +18,6 @@ using System.Configuration;
 */
 public partial class HCPCSCoder : System.Web.UI.Page
 {
-    protected void Page_Load(object sender, EventArgs e)
-    {
-
-    }
-
     /*
      Name: ddlSupply_SelectedIndexChanged
      Abstract: Displays the HCPCS Code for the chosen supply.
