@@ -1,9 +1,7 @@
 ﻿/*
-  Class: CPDM Capstone
   Author: Chris McClain
   Abstract: Allows management to add a new patient
             to the Cancer Registry.
-  Date: July 25, 2017
 */
 using System;
 using System.Collections.Generic;
@@ -22,11 +20,6 @@ using System.Configuration;
  */
 public partial class Management_AddPatient : System.Web.UI.Page
 {
-    protected void Page_Load(object sender, EventArgs e)
-    {
-
-    }
-
     /*
    Name: btnSubmit_Click
    Abstract: Inserts new patient into the Cancer Registry.
