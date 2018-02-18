@@ -1,9 +1,7 @@
 ﻿/*
-  Class: CPDM Capstone
   Author: Chris McClain
   Abstract: Displays patient name, date of birth, medication, insurance authorization, due date for next injection
             and next scheduled appointment for all patients who are due for injections within the specified time frame.
-  Date: July 25, 2017
 */
 using System;
 using System.Collections.Generic;
