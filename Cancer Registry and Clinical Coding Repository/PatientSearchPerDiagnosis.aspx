@@ -1,9 +1,6 @@
 ﻿<%--
-Form: PatientSearchPerDiagnosis
-Class: CPDM Capstone
 Author: Chris McClain
 Abstract: Displays the names, dates of birth, and Tiger Numbers of all patients who have the specified diagnosis
-Date: July 15, 2017
 --%>
 
 <%@ Page Title="Patient Search per Diagnosis" Language="C#" MasterPageFile="~/MasterPages/Frontend.master" AutoEventWireup="true" CodeFile="PatientSearchPerDiagnosis.aspx.cs" Inherits="PatientSearchPerDiagnosis" %>
