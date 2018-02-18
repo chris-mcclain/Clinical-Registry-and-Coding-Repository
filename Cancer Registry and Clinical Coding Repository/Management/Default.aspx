@@ -1,9 +1,6 @@
 ﻿<%--
-Form: Default
-Class: CPDM Capstone
 Author: Chris McClain
 Abstract: Home page for management
-Date: July 15, 2017
 --%>
 
 <%@ Page Title="Home" Language="C#" MasterPageFile="~/MasterPages/Management.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="Management_Default" %>
