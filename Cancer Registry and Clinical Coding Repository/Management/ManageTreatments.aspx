@@ -1,9 +1,6 @@
 ﻿<%--
-Form: ManageTreatments
-Class: CPDM Capstone
 Author: Chris McClain
 Abstract: Allows management to add to, edit, and delete from the TTreatments table
-Date: July 15, 2017
 --%>
 
 <%@ Page Title="Manage Treatments" Language="C#" MasterPageFile="~/MasterPages/Management.master" AutoEventWireup="true" CodeFile="ManageTreatments.aspx.cs" Inherits="Management_ManageTreatments" %>
