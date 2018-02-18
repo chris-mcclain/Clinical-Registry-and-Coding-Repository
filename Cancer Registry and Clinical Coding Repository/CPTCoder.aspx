@@ -1,9 +1,6 @@
 ﻿<%--
-Form: CPTCoder
-Class: CPDM Capstone
 Author: Chris McClain
 Abstract: Displays the CPT code associated with specified procedures and imaging.
-Date: July 15, 2017
 --%>
 
 <%@ Page Title="CPT Coder" Language="C#" MasterPageFile="~/MasterPages/Frontend.master" AutoEventWireup="true" CodeFile="CPTCoder.aspx.cs" Inherits="CPTCoder" %>
