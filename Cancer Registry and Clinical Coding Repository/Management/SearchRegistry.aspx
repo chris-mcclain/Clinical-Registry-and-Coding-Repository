@@ -1,9 +1,6 @@
 ﻿<%--
-Form: SearchRegistry
-Class: CPDM Capstone
 Author: Chris McClain
 Abstract: Allows management to search the registry for patients
-Date: July 15, 2017
 --%>
 
 <%@ Page Title="Search Registry" Language="C#" MasterPageFile="~/MasterPages/Management.master" AutoEventWireup="true" CodeFile="SearchRegistry.aspx.cs" Inherits="Management_SearchRegistry" %>
