@@ -1,6 +1,4 @@
 ﻿<%--
-Form: AddNewDetails
-Class: CPDM Capstone
 Author: Chris McClain
 Abstract: Allows management to add new details to a patient's Cancer Registry chart
 Date: July 15, 2017
