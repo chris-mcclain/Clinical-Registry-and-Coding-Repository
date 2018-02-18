@@ -1,9 +1,6 @@
 ﻿<%--
-Form: AddPatient
-Class: CPDM Capstone
 Author: Chris McClain
 Abstract: Allows management to add a new patient to the Cancer Registry
-Date: July 15, 2017
 --%>
 
 <%@ Page Title="Add Patient to Registry" Language="C#" MasterPageFile="~/MasterPages/Management.master" AutoEventWireup="true" CodeFile="AddPatient.aspx.cs" Inherits="Management_AddPatient" %>
