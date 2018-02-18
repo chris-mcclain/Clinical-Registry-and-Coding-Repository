@@ -1,10 +1,7 @@
 ﻿<%--
-Form: PatientSearchPerInjectable
-Class: CPDM Capstone
 Author: Chris McClain
 Abstract: Displays the names, dates of birth, and Tiger Numbers of all patients who receive the specified injectable
           medication
-Date: July 15, 2017
 --%>
 
 <%@ Page Title="Patient Search Per Injectable" Language="C#" MasterPageFile="~/MasterPages/Frontend.master" AutoEventWireup="true" CodeFile="PatientSearchPerInjectable.aspx.cs" Inherits="PatientSearchPerInjectable" %>
