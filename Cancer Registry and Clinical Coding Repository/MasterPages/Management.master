@@ -1,9 +1,6 @@
 ﻿<%--
-Form: Management.master
-Class: CPDM Capstone
 Author: Chris McClain
 Abstract: Defines the layout for the management pages of the Cancer Registry and Clinical Coding Repository
-Date: July 15, 2017
 --%>
 
 <%@ Master Language="C#" AutoEventWireup="true" CodeFile="Management.master.cs" Inherits="MasterPages_Management" %>
