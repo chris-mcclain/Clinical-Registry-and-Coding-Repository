@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!--
+File: Web.sitemap
+Class: CPDM Capstone
+Author: Chris McClain
+Abstract: Sitemap for the Clinical Coding and Clinical Coding Repository Site
+Date: July 15, 2017
+-->
+
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/" title="Home"  description="Home">
+        <siteMapNode url="~/Default.aspx" title="Home"  description="Go to Homepage" />
+    
+    <siteMapNode url="~/CancerRegistry/Default.aspx" title="Cancer Registry" description="Cancer Registry"></siteMapNode>
+    <siteMapNode url="~/InjectionAppointmentTracker.aspx" title="Injection Tracker" description="Injection Appointment Tracker"></siteMapNode>       
+    <siteMapNode url="~/PatientSearchPerInjectable.aspx" title="Patient Search Per Injectable" description="Patient Search per Injectable"></siteMapNode>
+    <siteMapNode url="~/PatientSearchPerDiagnosis.aspx" title="Patient Search Per Diagnosis" description="Patient Search per Cancer Diagnosis"></siteMapNode>
+    <siteMapNode url="~/PatientSearchPerProcedure.aspx" title="Patient Search Per Procedure" description="Patient Search per Procedure"></siteMapNode>
+    <siteMapNode url="~/ICD10Coder.aspx" title="ICD-10 Coder" description="ICD-10 Code finder"></siteMapNode>
+    <siteMapNode url="~/CPTCoder.aspx" title="CPT Coder" description="CPT Code finder"></siteMapNode>
+    <siteMapNode url="~/HCPCSCoder.aspx" title="HCPCS Coder" description="HCPCS Code finder"></siteMapNode>
+    <siteMapNode url="~/GlobalDays.aspx" title="Global Days Repository" description="Global Days Repository"></siteMapNode>
+  </siteMapNode>
+    
+</siteMap>

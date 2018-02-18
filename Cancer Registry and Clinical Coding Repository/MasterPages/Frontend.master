@@ -1,0 +1,58 @@
+﻿<%--
+Form: Frontend.master
+Class: CPDM Capstone
+Author: Chris McClain
+Abstract: Defines the layout for the general Cancer Registry and Clinical Coding Respository pages
+Date: July 15, 2017
+--%>
+
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Frontend.master.cs" Inherits="MasterPages_Frontend" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../Styles/Styles.css" rel="stylesheet" type="text/css" />
+    <script src="../Scripts/modernizr-2.8.3.js"></script>
+</head>
+<body>
+    <form id="Master" runat="server">
+    <div id="PageWrapper">
+        <div>
+        <header>Cancer Registry and Clinical Coding Repository
+            <div style="text-align:right">
+            <asp:LoginName ID="LoginName1" runat="server" FormatString="Logged in as {0}" />
+            <asp:LoginView ID="LoginView1" runat="server">
+                <LoggedInTemplate>
+                    (<asp:LoginStatus ID="LoginStatus1" runat="server" OnLoggingOut="LoginStatus1_LoggingOut"/>)
+                </LoggedInTemplate>
+                <RoleGroups>
+                    <asp:RoleGroup Roles="Managers">
+                        <ContentTemplate>
+                            (<asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Management/Default.aspx">Manage Site</asp:HyperLink> or
+                            <asp:LoginStatus ID="LoginStatus2" runat="server" OnLoggingOut="LoginStatus1_LoggingOut" />)
+                        </ContentTemplate>
+                    </asp:RoleGroup>
+                </RoleGroups>
+            </asp:LoginView>
+            </div>
+        </header>
+        </div>
+        <nav style="float:left">
+            <asp:Menu ID="mnuMainMenu" runat="server" CssClass="MainMenu" DataSourceID="SiteMapDataSource1" StaticEnableDefaultPopOutImage="False"></asp:Menu>
+            <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+        </nav>
+        <div style="width:100px"></div>
+        <section id="MainContent" style="float:left">
+            <asp:ContentPlaceHolder id="cpMainContent" runat="server">
+                
+            </asp:ContentPlaceHolder>
+         </section>
+
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,62 @@
+﻿<%--
+Form: Management.master
+Class: CPDM Capstone
+Author: Chris McClain
+Abstract: Defines the layout for the management pages of the Cancer Registry and Clinical Coding Repository
+Date: July 15, 2017
+--%>
+
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Management.master.cs" Inherits="MasterPages_Management" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../Styles/ManagementStyles.css" rel="stylesheet" type="text/css" />
+    <script src="../Scripts/modernizr-2.8.3.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div style="text-align:right">
+            <asp:LoginName ID="LoginName1" runat="server" FormatString="Logged in as {0}" />
+            <asp:LoginView ID="LoginView1" runat="server">
+                <LoggedInTemplate>
+                    (<asp:LoginStatus ID="LoginStatus1" runat="server" />)
+                </LoggedInTemplate>
+                <RoleGroups>
+                    <asp:RoleGroup Roles="Managers">
+                        <ContentTemplate>
+                            (<asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Management/Default.aspx">Manage Site</asp:HyperLink> or
+                            <asp:LoginStatus ID="LoginStatus2" runat="server" />)
+                        </ContentTemplate>
+                    </asp:RoleGroup>
+                </RoleGroups>
+            </asp:LoginView>
+            </div>
+    <div>
+        <nav style="width: 200px; float: left;">
+            <ul>
+                <li><a id="Home" href="../Default.aspx" runat="server">Registry Home</a></li>
+                <li><a id="ManagementHome" href="~/Management/Default.aspx" runat="server">Management Home</a></li>
+                <li><a id="ManagePatients" href="~/Management/ManagePatients.aspx" runat="server">Manage Patients</a></li>
+                <li><a id="ManageProcedures" href="~/Management/ManageProcedures.aspx" runat="server">Manage Procedures</a></li>
+                <li><a id="ManageImaging" href="~/Management/ManageImaging.aspx" runat="server">Manage Imaging</a></li>
+                <li><a id="ManageMedications" href="~/Management/ManageMedications.aspx" runat="server">Manage Medications</a></li>
+                <li><a id="ManageTreatments" href="~/Management/ManageTreatments.aspx" runat="server">Manage Treatments</a></li>
+                <li><a id="ManageLabTests" href="~/Management/ManageLabTests.aspx" runat="server">Manage Lab Tests</a></li>
+                <li><a id="ManageConditions" href="~/Management/ManageConditions.aspx" runat="server">Manage Conditions</a></li>
+                <li><a id="ManageSupplies" href="~/Management/ManageSupplies.aspx" runat="server">Manage Supplies</a></li>
+                <li><a id="CreateNewUser" href="~/Management/CreateNewUser.aspx" runat="server">Create a New User</a></li>
+            </ul>
+        </nav>
+        <section style="width: 750px; float: left;">
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </section>
+    </div>
+    </form>
+</body>
+</html>
