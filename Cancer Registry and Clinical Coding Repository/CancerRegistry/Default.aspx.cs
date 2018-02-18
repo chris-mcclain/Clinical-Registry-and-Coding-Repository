@@ -1,8 +1,6 @@
 ﻿/*
-  Class: CPDM Capstone
   Author: Chris McClain
   Abstract: Conducts search for user-specified cancer registry patient
-  Date: July 25, 2017
 */
 using System;
 using System.Collections.Generic;
