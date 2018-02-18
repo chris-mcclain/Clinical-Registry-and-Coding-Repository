@@ -1,9 +1,6 @@
 ﻿<%--
-Form: ManageImaging
-Class: CPDM Capstone
 Author: Chris McClain
 Abstract: Allows management to add to, edit, and delete imaging from the TImaging table
-Date: July 15, 2017
 --%>
 
 <%@ Page Title="Manage Imaging" Language="C#" MasterPageFile="~/MasterPages/Management.master" AutoEventWireup="true" CodeFile="ManageImaging.aspx.cs" Inherits="Management_ManageImaging" %>
