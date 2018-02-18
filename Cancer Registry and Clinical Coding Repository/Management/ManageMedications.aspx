@@ -1,9 +1,6 @@
 ﻿<%--
-Form: ManageMedications
-Class: CPDM Capstone
 Author: Chris McClain
 Abstract: Allows management to add to, edit, and delete from the TMedications table
-Date: July 15, 2017
 --%>
 
 <%@ Page Title="Manage Medications" Language="C#" MasterPageFile="~/MasterPages/Management.master" AutoEventWireup="true" CodeFile="ManageMedications.aspx.cs" Inherits="Management_ManageMedications" %>
