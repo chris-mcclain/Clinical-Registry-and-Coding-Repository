@@ -1,8 +1,6 @@
 ﻿/*
-  Class: CPDM Capstone
   Author: Chris McClain
   Abstract: Displays all patients who have the specified diagnosis.
-  Date: July 25, 2017
 */
 using System;
 using System.Collections.Generic;
