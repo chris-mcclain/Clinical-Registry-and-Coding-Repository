@@ -1,9 +1,6 @@
 ﻿<%--
-Form: Frontend.master
-Class: CPDM Capstone
 Author: Chris McClain
 Abstract: Defines the layout for the general Cancer Registry and Clinical Coding Respository pages
-Date: July 15, 2017
 --%>
 
 <%@ Master Language="C#" AutoEventWireup="true" CodeFile="Frontend.master.cs" Inherits="MasterPages_Frontend" %>
