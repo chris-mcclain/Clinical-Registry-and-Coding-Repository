@@ -1,8 +1,6 @@
 ﻿/*
-  Class: CPDM Capstone
   Author: Chris McClain
   Abstract: Displays the navigation menu for the logged-in user.
-  Date: July 25, 2017
 */
 using System;
 using System.Collections.Generic;
