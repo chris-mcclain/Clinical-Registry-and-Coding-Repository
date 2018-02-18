@@ -1,8 +1,6 @@
 ﻿/*
-  Class: CPDM Capstone
   Author: Chris McClain
   Abstract: Displays the number of global days associated with a procedure.
-  Date: July 25, 2017
 */
 using System;
 using System.Collections.Generic;
@@ -20,11 +18,6 @@ using System.Configuration;
 */
 public partial class GlobalDays : System.Web.UI.Page
 {
-    protected void Page_Load(object sender, EventArgs e)
-    {
-
-    }
-
     /*
      Name: ddlProcedure_SelectedIndexChanged
      Abstract: Displays the number of global days associated with the chosen procedure.
