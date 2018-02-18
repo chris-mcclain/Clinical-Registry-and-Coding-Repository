@@ -1,9 +1,6 @@
 ﻿<%--
-Form: ManageSupplies
-Class: CPDM Capstone
 Author: Chris McClain
 Abstract: Allows management to add to, edit, and delete from the TSupplies table
-Date: July 15, 2017
 --%>
 
 <%@ Page Title="Manage Supplies" Language="C#" MasterPageFile="~/MasterPages/Management.master" AutoEventWireup="true" CodeFile="ManageSupplies.aspx.cs" Inherits="Management_ManageSupplies" %>
