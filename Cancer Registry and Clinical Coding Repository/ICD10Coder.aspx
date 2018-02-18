@@ -1,9 +1,6 @@
 ﻿<%--
-Form: ICD10Coder
-Class: CPDM Capstone
 Author: Chris McClain
 Abstract: Displays the ICD-10 Code for the specified diagnosis
-Date: July 15, 2017
 --%>
 
 <%@ Page Title="ICD-10 Coder" Language="C#" MasterPageFile="~/MasterPages/Frontend.master" AutoEventWireup="true" CodeFile="ICD10Coder.aspx.cs" Inherits="ICD10Coder" %>
