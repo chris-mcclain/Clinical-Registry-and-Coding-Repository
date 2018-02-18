@@ -1,8 +1,6 @@
 ﻿/*
-  Class: CPDM Capstone
   Author: Chris McClain
   Abstract: Displays the ICD-10 code associated with a chosen diagnosis.
-  Date: July 25, 2017
 */
 using System;
 using System.Collections.Generic;
@@ -20,18 +18,6 @@ using System.Configuration;
 */
 public partial class ICD10Coder : System.Web.UI.Page
 {
-    /*
-     Name: Page_Load
-     Abstract: Hide the ICD-10 label.
-    */
-    protected void Page_Load(object sender, EventArgs e)
-    {
-        if (!IsPostBack)
-        {
-           
-        }
-    }
-
     /*
      Name: ddlICD10Code_SelectedIndexChanged
      Abstract: Displays the ICD-10 Code for the chosen diagnosis.
