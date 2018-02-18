@@ -1,9 +1,6 @@
 ﻿<%--
-Form: ManageConditions
-Class: CPDM Capstone
 Author: Chris McClain
 Abstract: Allows management to add to, edit, and delete conditions from the TConditions table
-Date: July 15, 2017
 --%>
 
 <%@ Page Title="Manage Diagnoses" Language="C#" MasterPageFile="~/MasterPages/Management.master" AutoEventWireup="true" CodeFile="ManageConditions.aspx.cs" Inherits="Management_ManageConditions" %>
