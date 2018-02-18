@@ -1,10 +1,7 @@
 ﻿<%--
-Form: InjectionAppointmentTracker
-Class: CPDM Capstone
 Author: Chris McClain
 Abstract: Displays patient name, date of birth, medication, insurance authorization, due date for next injection
           and next scheduled appointment for all patients who are due for injections within the specified time frame.
-Date: July 15, 2017
 --%>
 
 <%@ Page Title="Injection Appointment Tracker" Language="C#" MasterPageFile="~/MasterPages/Frontend.master" AutoEventWireup="true" CodeFile="InjectionAppointmentTracker.aspx.cs" Inherits="InjectionAppointmentTracker" %>
