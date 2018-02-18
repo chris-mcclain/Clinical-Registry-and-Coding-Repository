@@ -1,8 +1,6 @@
 ﻿/*
-  Class: CPDM Capstone
   Author: Chris McClain
   Abstract: Populates the heading labels for the Cancer Registry chart
-  Date: July 25, 2017
 */
 using System;
 using System.Collections.Generic;
