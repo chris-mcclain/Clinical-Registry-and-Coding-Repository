@@ -1,9 +1,6 @@
 ﻿<%--
-Form: ManageLabTests
-Class: CPDM Capstone
 Author: Chris McClain
 Abstract: Allows management to add to, edit, and delete from the TLabTests table
-Date: July 15, 2017
 --%>
 
 <%@ Page Title="Manage Lab Tests" Language="C#" MasterPageFile="~/MasterPages/Management.master" AutoEventWireup="true" CodeFile="ManageLabTests.aspx.cs" Inherits="Management_ManageLabTests" %>
