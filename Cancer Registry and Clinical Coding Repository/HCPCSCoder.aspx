@@ -1,9 +1,6 @@
 ﻿<%--
-Form: HCPCSCoder
-Class: CPDM Capstone
 Author: Chris McClain
 Abstract: Displays the HCPCS code for specified supplies and medications
-Date: July 15, 2017
 --%>
 
 <%@ Page Title="HCPCS Coder" Language="C#" MasterPageFile="~/MasterPages/Frontend.master" AutoEventWireup="true" CodeFile="HCPCSCoder.aspx.cs" Inherits="HCPCSCoder" %>
