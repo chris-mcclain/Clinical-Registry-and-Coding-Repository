@@ -1,10 +1,7 @@
 ﻿<%--
-Form: ManagePatients
-Class: CPDM Capstone
 Author: Chris McClain
 Abstract: Navigation page that allows management to navigate to pages for adding patients, editing existing details, 
           adding new details, and deleting patients from the Cancer Registry.
-Date: July 15, 2017
 --%>
 
 <%@ Page Title="Manage Patients" Language="C#" MasterPageFile="~/MasterPages/Management.master" AutoEventWireup="true" CodeFile="ManagePatients.aspx.cs" Inherits="Management_ManagePatients" %>
